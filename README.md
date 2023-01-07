@@ -1,7 +1,7 @@
 # FreeYOLO-onnx
 Infer FreeYOLO for images and videos with onnx model.
 
-![image](https://github.com/tatsuya-fukuoka/FreeYOLO-onnx-infer/tree/main/outputs/test.png)
+![Image Test PNG](/outputs/test.png)
 
 ## 1.pip install
 ```bash
