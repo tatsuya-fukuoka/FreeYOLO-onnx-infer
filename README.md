@@ -3,8 +3,7 @@ Infer FreeYOLO for images and videos with onnx model.
 
 ## 1.pip install
 ```bash
-pip install -U pip
-pip install opencv-python onnxruntime
+pip install -U pip && pip install opencv-python onnxruntime
 ```
 ## 2.pretraind-model
 Taken from the official Github repository:
