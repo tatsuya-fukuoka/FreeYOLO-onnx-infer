@@ -1,6 +1,8 @@
 # FreeYOLO-onnx
 Infer FreeYOLO for images and videos with onnx model.
 
+![](https://github.com/tatsuya-fukuoka/FreeYOLO-onnx-infer/tree/main/outputs/test.jpg)
+
 ## 1.pip install
 ```bash
 pip install -U pip && pip install opencv-python onnxruntime
