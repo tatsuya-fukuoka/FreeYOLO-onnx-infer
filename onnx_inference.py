@@ -3,10 +3,10 @@
 
 import argparse
 import os
-
-import cv2
 import time
 import logging
+
+import cv2
 
 from utils.utils import FREEYOLOONNX
 
@@ -48,8 +48,8 @@ def infer_img(args, freeyolo_onnx):
 
 def infer_vid(args, freeyolo_onnx):
     cap = cv2.VideoCapture(args.input_path)
-    width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)  # float
-    height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)  # float
+    width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
+    height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     fps = cap.get(cv2.CAP_PROP_FPS)
     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     

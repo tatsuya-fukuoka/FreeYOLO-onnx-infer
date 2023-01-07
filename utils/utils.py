@@ -89,7 +89,6 @@ class FREEYOLOONNX(object):
 
         return img
 
-
     def visualize(self, img, bboxes, scores, labels, class_colors, vis_thresh=0.3):
         ts = 0.4
         for i, bbox in enumerate(bboxes):
